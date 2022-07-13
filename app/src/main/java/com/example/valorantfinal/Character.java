@@ -22,4 +22,9 @@ public class Character extends AppCompatActivity {
         startActivity(intent);
         Log.d("Sova","I am the Hunter");
     }
+    public void nextJett(View v){
+        Intent intent = new Intent(this,jett.class);
+        startActivity(intent);
+        Log.d("Jett","Watch This");
+    }
 }

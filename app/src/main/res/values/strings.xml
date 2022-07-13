@@ -26,4 +26,30 @@ EQUIP a bow with three long-range wall-piercing energy blasts. FIRE to release a
     This ability can be RE-USED up to two more times while the ability timer is active.\n
 </br>
     </string>
+
+    <string name="jettability">
+        <br>
+            <b>
+Q - UPDRAFT\n</b>
+INSTANTLY propel Jett high into the air.\n
+        </br>
+        <br>
+            <b>
+E - TAILWIND\n
+            </b>
+INSTANTLY propel Jett in the direction she is moving. If Jett is standing still, she will propel forward\n
+        </br>
+        <br>
+            <b>
+C - CLOUDBURST\n
+            </b>
+INSTANTLY throw a projectile that expands into a brief vision-blocking cloud on impact with a surface. HOLD the ability key to curve the smoke in the direction of your crosshair.\n
+        </br>
+        <br>
+            <b>
+X - BLADE STORM
+            </b>
+EQUIP a set of highly accurate knives that recharge on killing an opponent. FIRE to throw a single knife at your target. ALTERNATE FIRE to throw all remaining daggers at your target.
+        </br>
+    </string>
 </resources>

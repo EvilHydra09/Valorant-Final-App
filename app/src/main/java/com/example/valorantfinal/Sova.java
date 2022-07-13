@@ -30,5 +30,6 @@ ImageView learnmore;
         Intent intent = new Intent(Intent.ACTION_VIEW,uri);
         startActivity(intent);
 
+
     }
 }
