@@ -27,6 +27,30 @@ tools:context=".Character">
         android:layout_height="match_parent"
         android:baselineAligned="false"
         android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="410dp"
+                android:layout_height="500dp"
+                android:layout_weight="3"
+                android:onClick="nextReyna"
+                android:scaleType="centerCrop"
+                android:src="@drawable/reyna" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/valofont"
+                android:gravity="center"
+                android:onClick="nextReyna"
+                android:text="Reyna"
+                android:textColor="@color/white"
+                android:textSize="30dp" />
+        </LinearLayout>
 
         <LinearLayout
             android:id="@+id/jettvertical"

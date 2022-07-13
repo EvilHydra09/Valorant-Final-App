@@ -10,10 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
         <activity
+            android:name=".Reyna"
+            android:exported="false" />
+        <activity
             android:name=".jett"
             android:exported="false"
-            android:parentActivityName=".Character"
-            />
+            android:parentActivityName=".Character" />
         <activity
             android:name=".Sova"
             android:exported="false"

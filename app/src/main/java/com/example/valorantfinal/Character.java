@@ -27,4 +27,9 @@ public class Character extends AppCompatActivity {
         startActivity(intent);
         Log.d("Jett","Watch This");
     }
+    public void nextReyna(View v){
+        Intent intent = new Intent(this,Reyna.class);
+        startActivity(intent);
+        Log.d("Reyna","HAA HAA HA");
+    }
 }
