@@ -33,12 +33,13 @@ tools:context=".Character">
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="410dp"
+                android:layout_width="360dp"
                 android:layout_height="500dp"
                 android:layout_weight="3"
                 android:onClick="nextReyna"
                 android:scaleType="centerCrop"
-                android:src="@drawable/reyna" />
+                android:src="@drawable/reyna"
+                android:layout_gravity="center"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -49,7 +50,7 @@ tools:context=".Character">
                 android:onClick="nextReyna"
                 android:text="Reyna"
                 android:textColor="@color/white"
-                android:textSize="30dp" />
+                android:textSize="24dp" />
         </LinearLayout>
 
         <LinearLayout
